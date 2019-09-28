@@ -40,5 +40,6 @@ def self.alphabetical
   self.all.sort_by{|s| s.name}
 end
 
-def self.new_from_filename(file_)
+def self.new_from_filename(filename)
+  
 
